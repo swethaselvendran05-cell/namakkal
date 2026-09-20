@@ -3138,3 +3138,240 @@ iframe {
     visibility: visible !important;
   }
 }
+
+/* =========================================
+   DISCOVER NAMAKKAL - MOBILE FIX
+   ========================================= */
+
+@media (max-width: 600px) {
+
+  /* Main section */
+  #discover {
+    width: 100%;
+    max-width: 100%;
+    overflow: hidden;
+    box-sizing: border-box;
+  }
+
+  #discover .container {
+    width: 100%;
+    max-width: 100%;
+    padding-left: 16px;
+    padding-right: 16px;
+    margin: 0 auto;
+    box-sizing: border-box;
+  }
+
+  /* Section heading */
+  #discover .section-header {
+    width: 100%;
+    max-width: 100%;
+    text-align: center;
+    box-sizing: border-box;
+  }
+
+  #discover .section-title {
+    font-size: 1.8rem;
+    line-height: 1.2;
+    word-break: normal;
+    overflow-wrap: break-word;
+  }
+
+  #discover .section-desc {
+    width: 100%;
+    max-width: 100%;
+    font-size: 0.92rem;
+    line-height: 1.6;
+    box-sizing: border-box;
+  }
+
+  /* Main Discover Grid */
+  #discover .discover-grid {
+    width: 100%;
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 28px;
+    margin: 0;
+    box-sizing: border-box;
+  }
+
+  /* Left narrative */
+  #discover .discover-narrative {
+    width: 100%;
+    max-width: 100%;
+    min-width: 0;
+    box-sizing: border-box;
+  }
+
+  #discover .discover-lead,
+  #discover .discover-text {
+    width: 100%;
+    max-width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+    font-size: 0.94rem;
+    line-height: 1.7;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    box-sizing: border-box;
+  }
+
+  /* Quick Statistics */
+  #discover .district-quick-stats {
+    width: 100%;
+    max-width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    box-sizing: border-box;
+  }
+
+  #discover .stat-chip {
+    width: 100%;
+    min-width: 0;
+    max-width: 100%;
+    padding: 12px 10px;
+    box-sizing: border-box;
+  }
+
+  #discover .stat-chip-icon {
+    flex-shrink: 0;
+  }
+
+  #discover .stat-chip-info {
+    min-width: 0;
+    max-width: 100%;
+  }
+
+  #discover .stat-chip-val,
+  #discover .stat-chip-lbl {
+    max-width: 100%;
+    overflow-wrap: break-word;
+    word-break: normal;
+  }
+
+  #discover .stat-chip-val {
+    font-size: 0.9rem;
+  }
+
+  #discover .stat-chip-lbl {
+    font-size: 0.7rem;
+    line-height: 1.3;
+  }
+
+  /* History Timeline */
+  #discover .history-timeline-box {
+    width: 100%;
+    max-width: 100%;
+    min-width: 0;
+    box-sizing: border-box;
+    overflow: hidden;
+  }
+
+  /* Timeline header */
+  #discover .timeline-box-header {
+    width: 100%;
+    max-width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 8px;
+    box-sizing: border-box;
+  }
+
+  #discover .timeline-box-title {
+    min-width: 0;
+    max-width: 100%;
+    font-size: 1rem;
+    line-height: 1.3;
+    overflow-wrap: break-word;
+  }
+
+  #discover .timeline-box-header .timeline-year {
+    max-width: 100%;
+    font-size: 0.7rem;
+    white-space: normal;
+  }
+
+  /* Timeline list */
+  #discover .timeline-list {
+    width: 100%;
+    max-width: 100%;
+    box-sizing: border-box;
+  }
+
+  /* Timeline items */
+  #discover .timeline-item {
+    width: 100%;
+    max-width: 100%;
+    min-width: 0;
+    box-sizing: border-box;
+    overflow-wrap: break-word;
+  }
+
+  #discover .timeline-item .timeline-year {
+    font-size: 0.72rem;
+    line-height: 1.4;
+    max-width: 100%;
+    overflow-wrap: break-word;
+  }
+
+  #discover .timeline-heading {
+    max-width: 100%;
+    font-size: 0.95rem;
+    line-height: 1.35;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+  }
+
+  #discover .timeline-desc {
+    max-width: 100%;
+    font-size: 0.82rem;
+    line-height: 1.6;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+  }
+
+  /* Prevent anything inside Discover from causing horizontal scroll */
+  #discover * {
+    max-width: 100%;
+    box-sizing: border-box;
+  }
+}
+
+
+/* Very small phones */
+@media (max-width: 380px) {
+
+  #discover .container {
+    padding-left: 12px;
+    padding-right: 12px;
+  }
+
+  #discover .section-title {
+    font-size: 1.6rem;
+  }
+
+  #discover .district-quick-stats {
+    grid-template-columns: 1fr;
+  }
+
+  #discover .stat-chip {
+    display: flex;
+    align-items: center;
+  }
+
+  #discover .discover-lead,
+  #discover .discover-text {
+    font-size: 0.88rem;
+  }
+
+  #discover .timeline-heading {
+    font-size: 0.9rem;
+  }
+
+  #discover .timeline-desc {
+    font-size: 0.78rem;
+  }
+}
