@@ -71,7 +71,7 @@
       name: 'Paramathi-Velur',
       nameTa: 'பரமத்தி-வேலூர்',
       hq: 'Velur Town',
-      image: 'paramathi-Velur.jpg',
+      image: 'paramathi.jpg',
       desc: 'Fertile riverine belt along the Kaveri, celebrated for betel vine plantations, banana groves, sugarcane cultivation, and the scenic Kabilarmalai Murugan temple.',
       keyPlaces: 'Kabilarmalai Murugan Temple, Kaveri River Canal Belt, Velur Betel Market',
       highlights: [
@@ -122,7 +122,7 @@
       name: 'Kumarapalayam',
       nameTa: 'குமாரபாளையம்',
       hq: 'Kumarapalayam Town',
-      image: 'Kumarapalayam.jpg',
+      image: 'komarapalayam.jpg',
       desc: 'Known as the "Textile City", located on the banks of River Kaveri, humming with thousands of spinning mills, powerlooms, and garment dyeing units.',
       keyPlaces: 'Kaveri River Promenade, Powerloom Industrial Estate, Textile Markets',
       highlights: [
